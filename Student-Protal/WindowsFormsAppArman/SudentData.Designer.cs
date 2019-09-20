@@ -58,11 +58,11 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.searchButton = new System.Windows.Forms.Button();
-            this.radioButton4 = new System.Windows.Forms.RadioButton();
-            this.radioButton3 = new System.Windows.Forms.RadioButton();
+            this.mobileRadioButton = new System.Windows.Forms.RadioButton();
+            this.nameRadioButton = new System.Windows.Forms.RadioButton();
             this.idRadioButton = new System.Windows.Forms.RadioButton();
             this.maxStudentNameTextBox = new System.Windows.Forms.TextBox();
+            this.searchButton = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -313,8 +313,8 @@
             // groupBox2
             // 
             this.groupBox2.Controls.Add(this.searchButton);
-            this.groupBox2.Controls.Add(this.radioButton4);
-            this.groupBox2.Controls.Add(this.radioButton3);
+            this.groupBox2.Controls.Add(this.mobileRadioButton);
+            this.groupBox2.Controls.Add(this.nameRadioButton);
             this.groupBox2.Controls.Add(this.idRadioButton);
             this.groupBox2.Location = new System.Drawing.Point(530, 190);
             this.groupBox2.Name = "groupBox2";
@@ -323,37 +323,27 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Search StudentInfo";
             // 
-            // searchButton
+            // mobileRadioButton
             // 
-            this.searchButton.Location = new System.Drawing.Point(125, 45);
-            this.searchButton.Name = "searchButton";
-            this.searchButton.Size = new System.Drawing.Size(75, 23);
-            this.searchButton.TabIndex = 1;
-            this.searchButton.Text = "Search";
-            this.searchButton.UseVisualStyleBackColor = true;
-            this.searchButton.Click += new System.EventHandler(this.Button1_Click);
+            this.mobileRadioButton.AutoSize = true;
+            this.mobileRadioButton.Location = new System.Drawing.Point(20, 71);
+            this.mobileRadioButton.Name = "mobileRadioButton";
+            this.mobileRadioButton.Size = new System.Drawing.Size(65, 17);
+            this.mobileRadioButton.TabIndex = 0;
+            this.mobileRadioButton.TabStop = true;
+            this.mobileRadioButton.Text = "MOBILE";
+            this.mobileRadioButton.UseVisualStyleBackColor = true;
             // 
-            // radioButton4
+            // nameRadioButton
             // 
-            this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(20, 71);
-            this.radioButton4.Name = "radioButton4";
-            this.radioButton4.Size = new System.Drawing.Size(65, 17);
-            this.radioButton4.TabIndex = 0;
-            this.radioButton4.TabStop = true;
-            this.radioButton4.Text = "MOBILE";
-            this.radioButton4.UseVisualStyleBackColor = true;
-            // 
-            // radioButton3
-            // 
-            this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(20, 48);
-            this.radioButton3.Name = "radioButton3";
-            this.radioButton3.Size = new System.Drawing.Size(56, 17);
-            this.radioButton3.TabIndex = 0;
-            this.radioButton3.TabStop = true;
-            this.radioButton3.Text = "NAME";
-            this.radioButton3.UseVisualStyleBackColor = true;
+            this.nameRadioButton.AutoSize = true;
+            this.nameRadioButton.Location = new System.Drawing.Point(20, 48);
+            this.nameRadioButton.Name = "nameRadioButton";
+            this.nameRadioButton.Size = new System.Drawing.Size(56, 17);
+            this.nameRadioButton.TabIndex = 0;
+            this.nameRadioButton.TabStop = true;
+            this.nameRadioButton.Text = "NAME";
+            this.nameRadioButton.UseVisualStyleBackColor = true;
             // 
             // idRadioButton
             // 
@@ -372,6 +362,16 @@
             this.maxStudentNameTextBox.Name = "maxStudentNameTextBox";
             this.maxStudentNameTextBox.Size = new System.Drawing.Size(78, 20);
             this.maxStudentNameTextBox.TabIndex = 10;
+            // 
+            // searchButton
+            // 
+            this.searchButton.Location = new System.Drawing.Point(128, 45);
+            this.searchButton.Name = "searchButton";
+            this.searchButton.Size = new System.Drawing.Size(75, 23);
+            this.searchButton.TabIndex = 1;
+            this.searchButton.Text = "Search";
+            this.searchButton.UseVisualStyleBackColor = true;
+            this.searchButton.Click += new System.EventHandler(this.SearchButton_Click);
             // 
             // SudentData
             // 
@@ -452,10 +452,10 @@
         private System.Windows.Forms.RadioButton radioButton1;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.RadioButton idRadioButton;
-        private System.Windows.Forms.RadioButton radioButton4;
-        private System.Windows.Forms.RadioButton radioButton3;
-        private System.Windows.Forms.Button searchButton;
+        private System.Windows.Forms.RadioButton mobileRadioButton;
+        private System.Windows.Forms.RadioButton nameRadioButton;
         private System.Windows.Forms.TextBox maxStudentNameTextBox;
+        private System.Windows.Forms.Button searchButton;
     }
 }
 

@@ -18,3 +18,13 @@ C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debu
 C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csproj.CoreCompileInputs.cache
 C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.exe
 C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.pdb
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\bin\Debug\WindowsFormsAppArman.exe.config
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\bin\Debug\WindowsFormsAppArman.exe
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\bin\Debug\WindowsFormsAppArman.pdb
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csprojAssemblyReference.cache
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.Properties.Resources.resources
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.SudentData.resources
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csproj.GenerateResource.cache
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csproj.CoreCompileInputs.cache
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.exe
+D:\student-protal-master\student-protal-master\Student-Protal\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.pdb

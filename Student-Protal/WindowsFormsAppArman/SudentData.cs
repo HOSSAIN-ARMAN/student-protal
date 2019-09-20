@@ -28,7 +28,7 @@ namespace WindowsFormsAppArman
         {
             if (string.IsNullOrEmpty(idTextBox.Text))
             {
-                MessageBox.Show("INPUT canNotBe Null");
+                MessageBox.Show("ID canNotBe Null");
                 return;
             }
             if (idTextBox.Text.Length != 4)
@@ -43,17 +43,24 @@ namespace WindowsFormsAppArman
             {
                 MessageBox.Show("Name Must Be In 30 Characters");
 
-            }else if(mobileTextBox.Text.Length !=11)
+            }
+            else if(mobileTextBox.Text.Length !=11)
             {
                 MessageBox.Show("MObile Number Must Be In 11 Digit");
 
-            }else if(addressTextBox.Text.Length >= 50)
+            }
+            else if (ageTextBox.Text.Length > 100)
+            {
+                MessageBox.Show("Wrong age as a student");
+            }
+            else if(addressTextBox.Text.Length >= 50)
             {
                 MessageBox.Show("Sorry Addres Contains Too Many Word ");
 
-            }else if(gpaTextBox.Text.Length >= 4.00)
+            }
+            else if(gpaTextBox.Text.Length >= 4.00)
             {
-                MessageBox.Show("Sorry GPA Must Be Out OF 4..");
+                MessageBox.Show("Sorry GPA Must Be in Out OF 4..");
 
             }
             else
@@ -125,32 +132,73 @@ namespace WindowsFormsAppArman
         {
             ShowStudentInfo();
         }
-        private void SearchStudentInfo()
+        private void SearchStudentInfoById()
         {
+            if (string.IsNullOrEmpty(idTextBox.Text))
+            {
+                MessageBox.Show("This is empty");
+                return;
+            }
             if (studentId.Contains(Convert.ToInt32(idTextBox.Text)))
             {
-                int index = studentId.IndexOf(idTextBox.TextLength);
-                MessageBox.Show(studentId[index]+ studentName[index] + studentMobile[index] + studentAge[index] + studentAddress[index] + studentGpaPoint[index]);
+                int index = studentId.IndexOf(Convert.ToInt32(idTextBox.Text));
+                MessageBox.Show(studentId[index]+"\n"+ studentName[index]+"\n" + studentMobile[index]+"\n" + studentAge[index]+"\n" + studentAddress[index]+"\n" + studentGpaPoint[index]+"\n");
+
+            }
+            else
+            {
+                MessageBox.Show("sorry data not available");
+            }
+
+        }
+        private void SearchStudentInfoByName()
+        {
+            if (string.IsNullOrEmpty(nameTextBox.Text))
+            {
+                MessageBox.Show("This is empty");
+                return;
+            }
+            if (studentName.Contains(nameTextBox.Text))
+            {
+                int index = studentName.IndexOf(nameTextBox.Text);
+                MessageBox.Show(studentName[index] + "\n" + studentId[index] + "\n" + studentMobile[index] + "\n" + studentAge[index] + "\n" + studentAddress[index] + "\n" + studentGpaPoint[index] + "\n");
+                return;
+            }
+        }
+        private void SearchStudentInfoByMobile()
+        {
+            if (string.IsNullOrEmpty(mobileTextBox.Text))
+            {
+                MessageBox.Show("This is empty");
                 return;
             }
 
-        }
-
-        private void Button1_Click(object sender, EventArgs e)
-        {
-            if(idRadioButton.Checked == true)
+            if (studentMobile.Contains(mobileTextBox.Text))
             {
-                if (studentId.Contains(Convert.ToInt32(idTextBox.Text)))
-                {
-                    int index = studentId.IndexOf(idTextBox.TextLength);
-                    MessageBox.Show(studentId[index] + studentName[index] + studentMobile[index] + studentAge[index] + studentAddress[index] + studentGpaPoint[index]);
-                   
-                }
-
-              
+                int index = studentMobile.IndexOf(mobileTextBox.Text);
+                MessageBox.Show(studentMobile[index] + "\n" + studentId[index] + "\n" + studentName[index] + "\n" + studentAge[index] + "\n" + studentAddress[index] + "\n" + studentGpaPoint[index] + "\n");
+                return;
             }
         }
 
-       
+        private void SearchButton_Click(object sender, EventArgs e)
+        {
+            if(idRadioButton.Checked == true)
+            {
+                SearchStudentInfoById();
+
+            }else if(nameRadioButton.Checked == true)
+            {
+                SearchStudentInfoByName();
+
+            }else if(mobileRadioButton.Checked == true)
+            {
+                SearchStudentInfoByMobile();
+            }
+            else
+            {
+                MessageBox.Show("Please Select Any One to search");
+            }
+        }
     }
 }
