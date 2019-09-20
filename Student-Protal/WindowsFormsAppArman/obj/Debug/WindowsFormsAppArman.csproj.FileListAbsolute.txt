@@ -1,0 +1,20 @@
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\bin\Debug\WindowsFormsAppArman.exe.config
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\bin\Debug\WindowsFormsAppArman.exe
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\bin\Debug\WindowsFormsAppArman.pdb
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csprojAssemblyReference.cache
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.Properties.Resources.resources
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.SudentData.resources
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csproj.GenerateResource.cache
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csproj.CoreCompileInputs.cache
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.exe
+C:\Users\Web App Develop .Net\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.pdb
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\bin\Debug\WindowsFormsAppArman.exe.config
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\bin\Debug\WindowsFormsAppArman.exe
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\bin\Debug\WindowsFormsAppArman.pdb
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csprojAssemblyReference.cache
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.Properties.Resources.resources
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.SudentData.resources
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csproj.GenerateResource.cache
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.csproj.CoreCompileInputs.cache
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.exe
+C:\Users\AaRmAn\Desktop\arman\WindowsFormsAppArman\WindowsFormsAppArman\obj\Debug\WindowsFormsAppArman.pdb

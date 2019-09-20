@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsFormsAppArman", "WindowsFormsAppArman\WindowsFormsAppArman.csproj", "{08AFC3D9-3AC5-40BF-BC38-E0A94B03003F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08AFC3D9-3AC5-40BF-BC38-E0A94B03003F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08AFC3D9-3AC5-40BF-BC38-E0A94B03003F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08AFC3D9-3AC5-40BF-BC38-E0A94B03003F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08AFC3D9-3AC5-40BF-BC38-E0A94B03003F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D8176E89-122E-4854-BA96-5F2A0A9BB330}
+	EndGlobalSection
+EndGlobal
